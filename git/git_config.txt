@@ -1,0 +1,20 @@
+user.email=gery.debongnie@gmail.com
+user.name=Gery Debongnie
+color.ui=true
+core.editor=vim
+alias.ci=commit
+alias.st=status -s
+alias.co=checkout
+alias.br=branch
+alias.lograph=log --graph --oneline
+alias.logmerge=log --first-parent --pretty=format:"%C(yellow)%h%C(cyan)%x09%<(15,trunc) %an%Creset%<(52,trunc)%s %Cgreen(%cr)"
+alias.logsimple=log --first-parent --pretty=format:"%C(yellow)%<(7,trunc)%h%C(cyan)%<(15,trunc) %an%Creset%<(54,trunc)%s%Cgreen(%cr)"
+push.default=simple
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+remote.origin.url=https://github.com/gdeb/Settings.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
