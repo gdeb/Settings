@@ -1,0 +1,7 @@
+
+* sublimegit
+* bracket highlighter
+* side bar
+* statusbartime
+* jshint gutter (? to remove ?)
+* sublimelinter 

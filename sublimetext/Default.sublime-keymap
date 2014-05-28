@@ -1,0 +1,11 @@
+[
+    { "keys": ["alt+left"], "command": "focus_neighboring_group", "args": {"forward": false} },
+    { "keys": ["alt+right"], "command": "focus_neighboring_group" },
+    { "keys": ["ctrl+à"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+    { "keys": ["ctrl+shift+à"], "command": "show_overlay", "args": {"overlay": "command_palette"} },
+    { "keys": ["ctrl+alt+f"], "command": "fold_by_level", "args": {"level": 1} },
+    { "keys": ["ctrl+alt+m"], "command": "fold_by_level", "args": {"level": 2} },
+    { "keys": ["ctrl+alt+h"], "command": "unfold_all" },
+    { "keys": ["ctrl+alt+g"], "command": "git_status"}    
+]
+
